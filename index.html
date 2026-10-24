@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Ahmed Buttma (7dadoon): software engineer, dabke trainer, photographer and accountant. Choose a CV to explore.">
+  <title>Ahmed Buttma | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+  <!-- Scroll progress bar (CSS only) -->
+  <div class="progress-bar"></div>
+
+  <!-- ===== Navigation Bar ===== -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="logo"><img src="images/logo.jpg" alt="" class="logo-img">7dadoon<span>.</span></a>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- CSS-only theme switch: the checkbox state is read by style.css -->
+        <input type="checkbox" id="theme" class="sr-only">
+        <label for="theme" class="theme-btn" title="Switch dark / light mode"></label>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== Hero: choose your CV ===== -->
+    <section id="home" class="hero">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+
+      <div class="hero-center">
+        <p class="hello">&#128075; Hello, I'm</p>
+        <h1>Ahmed <span class="grad">Buttma</span></h1>
+        <p class="nickname">aka <strong>7dadoon</strong></p>
+        <p class="tagline">
+          I'm a
+          <span class="rotator">
+            <span>Software Engineer</span>
+            <span>Dabke Trainer</span>
+            <span>Photographer</span>
+            <span>Video Editor</span>
+            <span>Accountant</span>
+          </span>
+        </p>
+
+        <p class="choose-label">Choose a CV to explore <span>&darr;</span></p>
+
+        <div class="cv-grid">
+          <a class="cv-card" href="software.html" style="--i: 0">
+            <span class="cv-num">01</span>
+            <span class="cv-icon">&#128187;</span>
+            <h3>Software Engineer</h3>
+            <p>Java, Python, web and problem solving. University projects, competitions and hackathons.</p>
+            <span class="cv-link">View CV <span>&rarr;</span></span>
+          </a>
+          <a class="cv-card" href="dabke.html" style="--i: 1">
+            <span class="cv-num">02</span>
+            <span class="cv-icon">&#128131;</span>
+            <h3>Dabke Trainer</h3>
+            <p>Dancer for 12 years and trainer at Ghirass Center, with student shows across Palestine.</p>
+            <span class="cv-link">View CV <span>&rarr;</span></span>
+          </a>
+          <a class="cv-card" href="media.html" style="--i: 2">
+            <span class="cv-num">03</span>
+            <span class="cv-icon">&#127909;</span>
+            <h3>Photographer &amp; Videographer</h3>
+            <p>Weddings, ads, films and storytelling photography, shown at festivals.</p>
+            <span class="cv-link">View CV <span>&rarr;</span></span>
+          </a>
+          <a class="cv-card" href="accounting.html" style="--i: 3">
+            <span class="cv-num">04</span>
+            <span class="cv-icon">&#128202;</span>
+            <h3>Accountant</h3>
+            <p>Accounts and audit work for two fuel stations in Bethlehem.</p>
+            <span class="cv-link">View CV <span>&rarr;</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About Me ===== -->
+    <section id="about" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+
+        <div class="about-wrap">
+          <div class="about-photo reveal from-left">
+            <div class="ring"></div>
+            <!-- Replace images/profile.jpg with your own photo (e.g. images/profile.jpg) -->
+            <img src="images/profile.jpg" alt="Portrait of Ahmed Buttma">
+          </div>
+
+          <div class="about-text reveal from-right">
+            <p>
+              I'm Ahmed, a Software Engineering student at Bethlehem University. I love mixing
+              logic and creativity: I write code, train dabke groups, and tell stories through
+              a camera lens.
+            </p>
+            <p>
+              I've been a dabke dancer for <strong>12 years</strong>, and for the last year
+              I've been training students at <strong>Ghirass Center</strong>. I also work as an
+              accountant for two fuel stations in Bethlehem.
+            </p>
+            <p>
+              I started as a wedding photographer for 3 years, then moved into freelance
+              photography, ad editing and personal creative work such as films and
+              storytelling photography. My film <strong>Freedom Is Close Yet Distant</strong> was selected at the CARLOTA International Film Festival in Vienna. On the software side, I've competed in programming
+              contests across Bethlehem and Palestine and joined several hackathons.
+            </p>
+          </div>
+        </div>
+
+        <div class="stats row">
+            <div class="stat-card">
+              <h3><span class="count" style="--num: 12">12</span>+</h3>
+              <p>Years of Dabke</p>
+            </div>
+            <div class="stat-card">
+              <h3>&#127917;</h3>
+              <p>Student dabke shows across Palestine</p>
+            </div>
+            <div class="stat-card">
+              <h3><span class="count" style="--num: 3">3</span></h3>
+              <p>Years as a wedding photographer</p>
+            </div>
+            <div class="stat-card">
+              <h3><span class="count" style="--num: 5">5</span></h3>
+              <p>Times at Amman Photo Festival</p>
+            </div>
+            <div class="stat-card">
+              <h3>&#127902;</h3>
+              <p>Al-Maamoura Film Festival, Abu Dhabi</p>
+            </div>
+            <div class="stat-card">
+              <h3>&#127942;</h3>
+              <p>Competitions &amp; hackathons (Bethlehem &amp; Palestine)</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skills-box reveal">
+            <h3><span class="box-icon">&lt;/&gt;</span> Programming</h3>
+            <div class="skill">
+              <div class="skill-info"><span>Java</span><span>85%</span></div>
+              <div class="bar"><div class="fill" style="--w: 85%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>Problem Solving</span><span>85%</span></div>
+              <div class="bar"><div class="fill" style="--w: 85%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>Python</span><span>80%</span></div>
+              <div class="bar"><div class="fill" style="--w: 80%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>HTML &amp; CSS</span><span>75%</span></div>
+              <div class="bar"><div class="fill" style="--w: 75%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>SQL</span><span>75%</span></div>
+              <div class="bar"><div class="fill" style="--w: 75%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>Git</span><span>70%</span></div>
+              <div class="bar"><div class="fill" style="--w: 70%;"></div></div>
+            </div>
+          </div>
+          <div class="skills-box reveal">
+            <h3><span class="box-icon">&#127916;</span> Creative Tools</h3>
+            <div class="skill">
+              <div class="skill-info"><span>Photography</span><span>90%</span></div>
+              <div class="bar"><div class="fill" style="--w: 90%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>Adobe Photoshop</span><span>85%</span></div>
+              <div class="bar"><div class="fill" style="--w: 85%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>CapCut</span><span>90%</span></div>
+              <div class="bar"><div class="fill" style="--w: 90%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>DaVinci Resolve</span><span>80%</span></div>
+              <div class="bar"><div class="fill" style="--w: 80%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>Video Editing &amp; Ads</span><span>85%</span></div>
+              <div class="bar"><div class="fill" style="--w: 85%;"></div></div>
+            </div>
+          </div>
+          <div class="skills-box reveal">
+            <h3><span class="box-icon">&#128202;</span> Accounting &amp; More</h3>
+            <div class="skill">
+              <div class="skill-info"><span>Accounting</span><span>75%</span></div>
+              <div class="bar"><div class="fill" style="--w: 75%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>Audit</span><span>70%</span></div>
+              <div class="bar"><div class="fill" style="--w: 70%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>Dabke Training</span><span>95%</span></div>
+              <div class="bar"><div class="fill" style="--w: 95%;"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>Teaching &amp; Leadership</span><span>85%</span></div>
+              <div class="bar"><div class="fill" style="--w: 85%;"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal">Projects</h2>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-img"><img src="images/project-shop.jpg" alt="Online phone accessories shop website"></div>
+            <div class="project-body">
+              <h3>Phone Accessories Online Shop</h3>
+              <p>A simple online shopping website for mobile phone accessories, built as a university project. Customers can browse products and view their details.</p>
+              <div class="tags"><span>Web</span><span>University Project</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-img"><img src="images/project-ulfa.jpg" alt="Ulfa premarital counseling app"></div>
+            <div class="project-body">
+              <h3>Ulfa &ndash; Premarital Counseling App</h3>
+              <p>Built with the Palestine Medical Relief Society. The user picks their gender, then answers a chain of questions where each next question depends on the previous answer (a decision-tree approach). At the end, the app gives feedback about the user's personality.</p>
+              <div class="tags"><span>App</span><span>Decision Tree</span><span>PMRS</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-img"><img src="images/project-onepiece.jpg" alt="One Piece Last Warrior game"></div>
+            <div class="project-body">
+              <h3>One Piece: Last Warrior</h3>
+              <p>A simple game written in Python and run on Replit. A fun personal project to practice game logic and programming fundamentals.</p>
+              <div class="tags"><span>Python</span><span>Game</span><span>Replit</span></div>
+            </div>
+          </article>
+        </div>
+
+        <p class="cta-row reveal">
+          Looking for my photography, dabke or accounting work?
+          <a class="btn btn-primary" href="#home">Choose a CV</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Contact</h2>
+        <p class="section-sub reveal">Want to work together or just say hi? Reach me here.</p>
+
+        <div class="contact-cards">
+          <!-- TODO: replace the href values below with your real links -->
+          <a class="contact-card reveal" href="mailto:7dadoon7dadoon@gmail.com">
+            <span class="icon">&#9993;</span>
+            <h3>Email</h3>
+            <p>7dadoon7dadoon@gmail.com</p>
+          </a>
+          <a class="contact-card reveal" href="https://github.com/ahmed-buttma" target="_blank" rel="noopener">
+            <span class="icon">&#128025;</span>
+            <h3>GitHub</h3>
+            <p>github.com/ahmed-buttma</p>
+          </a>
+          <a class="contact-card reveal" href="https://www.linkedin.com/in/ahmed-buttma-732717351/?isSelfProfile=true" target="_blank" rel="noopener">
+            <span class="icon">in</span>
+            <h3>LinkedIn</h3>
+            <p>Connect with me</p>
+          </a>
+          <a class="contact-card reveal" href="https://www.instagram.com/7dadoon_/" target="_blank" rel="noopener">
+            <span class="icon">&#9711;</span>
+            <h3>Instagram</h3>
+            <p>See my photography</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <p class="footer-logo">7dadoon<span>.</span></p>
+    <p>&copy; 2026 Ahmed Buttma. Built with pure HTML &amp; CSS.</p>
+  </footer>
+
+  <!-- Back to top -->
+  <a href="#top" class="to-top" aria-label="Back to top">&uarr;</a>
+
+</body>
+</html>
